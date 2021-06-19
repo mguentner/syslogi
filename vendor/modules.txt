@@ -1,0 +1,10 @@
+# github.com/spf13/pflag v1.0.5
+## explicit
+github.com/spf13/pflag
+# gopkg.in/mcuadros/go-syslog.v2 v2.3.0
+## explicit
+gopkg.in/mcuadros/go-syslog.v2
+gopkg.in/mcuadros/go-syslog.v2/format
+gopkg.in/mcuadros/go-syslog.v2/internal/syslogparser
+gopkg.in/mcuadros/go-syslog.v2/internal/syslogparser/rfc3164
+gopkg.in/mcuadros/go-syslog.v2/internal/syslogparser/rfc5424

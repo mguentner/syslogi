@@ -1,6 +1,6 @@
 # syslogi
 
-inspect syslog traffic, slighly better than netcat™
+inspect syslog traffic, slightly better than netcat™
 
 ## Copyright & License
 

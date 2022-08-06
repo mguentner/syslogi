@@ -1,4 +1,4 @@
-{ stdenv, buildGoModule, fetchFromGitHub, nixosTests }:
+{ lib, buildGoModule, fetchFromGitHub, nixosTests }:
 
 buildGoModule rec {
   pname = "syslogi";
@@ -9,9 +9,9 @@ buildGoModule rec {
 
   subPackages = [ "." ];
 
-  runVend = true;
+  proxyVendor = true;
 
-  meta = with stdenv.lib; {
+  meta = with lib; {
     description = "inspect syslog packages from UDP";
     homepage = "https://github.com/mguentner/syslogi";
     license = licenses.mit;
